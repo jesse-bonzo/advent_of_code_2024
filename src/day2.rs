@@ -1,3 +1,4 @@
+#![allow(dead_code)]
 use std::fs;
 
 pub fn solve() {

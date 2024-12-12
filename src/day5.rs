@@ -1,3 +1,4 @@
+#![allow(dead_code)]
 use nohash_hasher::IntMap;
 use std::fs;
 

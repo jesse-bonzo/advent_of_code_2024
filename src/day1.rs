@@ -1,8 +1,11 @@
+#![allow(dead_code)]
 use std::fs;
 
 pub fn solve() {
-    let input = fs::read_to_string("C:\\Users\\jbonz\\RustroverProjects\\adventofcode2024\\input\\day1.txt")
-        .expect("Unable to read input");
+    let input = fs::read_to_string(
+        "C:\\Users\\jbonz\\RustroverProjects\\adventofcode2024\\input\\day1.txt",
+    )
+    .expect("Unable to read input");
 
     // part1::solve_for(&input);
     part2::solve_for(&input);

@@ -1,3 +1,4 @@
+#![allow(dead_code)]
 use std::fs;
 const OBSTRUCTION: char = '#';
 const EMPTY: char = '.';
@@ -184,7 +185,7 @@ mod part2 {
             .map(Option::unwrap)
             .collect();
 
-        /**
+        /*
          * Example solutions: (6,3), (7,6), (7,7), (8,1), (8,3), (9,7)
          */
         println!("Total: {}", new_obstruction_positions.len());

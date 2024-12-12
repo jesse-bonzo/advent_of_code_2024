@@ -1,3 +1,4 @@
+#![allow(dead_code)]
 use std::fs;
 
 pub fn solve() {
@@ -28,7 +29,7 @@ struct Equation {
     inputs: Vec<i64>,
 }
 
-fn push_all(mut input: &mut Vec<i64>, to_push: Vec<i64>) {
+fn push_all(input: &mut Vec<i64>, to_push: Vec<i64>) {
     for i in to_push {
         input.push(i);
     }
