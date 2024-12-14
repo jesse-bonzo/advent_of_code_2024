@@ -23,7 +23,7 @@ pub fn solve() {
 }
 
 pub fn solve_for(input: &String, count: i32) -> i64 {
-    let mut commands: Vec<String> = input.split_whitespace().map(|s| s.to_string()).collect();
+    let commands: Vec<String> = input.split_whitespace().map(|s| s.to_string()).collect();
     let mut cache: HashMap<(String, i32), i64> = HashMap::new();
     let mut result = 0;
     for command in commands.iter() {
